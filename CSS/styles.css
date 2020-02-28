@@ -1,0 +1,145 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Courgette',serif;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  width: 5%;
+  border-color: grey;
+  border-width: 5px;
+  margin: 100px auto 100px auto;
+}
+
+h1 {
+  font-size: 5rem;
+  margin:60 auto 0 auto;
+  color: #2a7886;
+  font-family: 'Courgette', ;
+
+}
+
+h2 {
+  font-size: 1.875rem;
+  color:#2a7886;
+  font-family: serif;
+  font-weight: normal;
+}
+
+h3 {
+  color:#11999E;
+  font-family:serif;
+}
+
+a {
+  color: #11999E;
+  font-family: serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+p {
+  font-family: serif;
+  font-size: 1.25rem;
+}
+
+.description {
+  font-size: 1.875rem;
+  color:#2a7886;
+  font-family: 'Courgette',serif;
+  font-weight: normal;
+}
+
+.intro {
+  width: 50%;
+  margin: auto;
+}
+
+.top-container {
+  background-color: #beebe9;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  margin:0;
+  background-color: #fffdf9;
+  padding: 50px;
+
+}
+
+.bottom-container {
+  background-color: #e9e1cc;
+  margin-top: 0;
+  padding: 50px;
+
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 400px;
+  bottom: 300px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 400px;
+  top: 50px;
+}
+
+.skill-row {
+  margin: 100px auto 100px auto;
+  width:50%;
+  text-align: left;
+  line-height: 2 ;
+  font-size: 1.25rem;
+}
+
+.computer {
+  width: 25%;
+  float: left;
+  margin-right: 10%;
+}
+
+.chilli {
+  width: 25%;
+  float: right;
+  margin-left: 10%;
+}
+
+.copyright {
+  font-size: 1rem;
+  color: #EAf6F6;
+  padding: 20px 0;
+}
+
+.myButton {
+	box-shadow: 0 1px 0 0 #f0f7fa;
+	background:linear-gradient(to bottom, #33bdef 5%, #019ad2 100%);
+	background-color:#33bdef;
+	border-radius:6px;
+	border:1px solid #057fd0;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0 -1px 0 #5b6178;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #019ad2 5%, #33bdef 100%);
+	background-color:#019ad2;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
